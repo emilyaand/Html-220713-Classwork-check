@@ -1,0 +1,41 @@
+body{
+    background-color: green;
+    font-family: sans-serif;
+}
+table{
+    /* border: 1px solid red; */
+    border-collapse: collapse; 
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    border-radius: 5px;
+}
+table thead {
+    border-bottom: 1px dashed black ;
+}
+table tfoot{
+    border-top: 1px dashed black;
+}
+.total {
+    text-align: right;
+}
+
+table thead tr td:last-child,
+table tbody tr td:last-child,
+table tfoot tr td:last-child{
+    text-align: right;
+}
+.total,
+table tfoot tr td:last-child{
+    color: green;
+}
+thead{
+    color: lightblue
+}
+spam{
+    font-size: 12px;
+    color: grey;
+}
+tbody tr td:nth-child(2){
+    text-align: center;
+}
